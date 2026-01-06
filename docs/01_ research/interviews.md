@@ -1,50 +1,54 @@
-Interview:
+# Interview – Analyse des besoins utilisateurs
 
-Besoin:
-Pierre:
+## Profils interrogés
 
-- Communiquer avec les autres
-- Envoyer des photos/vidéos
-- Message Audio
-- Visuel d'un signe que la personne est sur la discussion
+### Pierre
+**Besoins :**
+- Communiquer avec les autres  
+- Envoyer des photos / vidéos  
+- Messages audio  
+- Indication visuelle lorsqu’une personne est active dans la discussion  
 
-Mathias:
+**Frustrations :**
+- Fonctionne uniquement avec le Wi-Fi  
 
-- Fils d'actualité ciblé
-- Une meilleure modération
-- Filtre d'age
+---
 
-Gautier:
+### Mathias
+**Besoins :**
+- Fil d’actualité ciblé  
+- Meilleure modération  
+- Filtre d’âge  
 
-- Algorithme de suggestion
-- Fluidité
-- Bon Design
+**Frustrations :**
+- Serveur indisponible (down)  
 
-Habitude:
+---
 
-- scrollé
-- envoyer des messages,
-- appeler,
-- envoyer des documents
-- perdre du temps
-- story
-- mettre en avant des musique
+### Gautier
+**Besoins :**
+- Algorithme de suggestion  
+- Fluidité de l’application  
+- Bon design  
 
-Frustration:
-Pierre:
+**Frustrations :**
+- Aucune  
 
-- Fonctionne uniquement par wifi
+---
 
-Gauthier:
+## Habitudes d’utilisation
+- Scroller  
+- Envoyer des messages  
+- Appeler  
+- Envoyer des documents  
+- Passer du temps sur l’application  
+- Regarder / publier des stories  
+- Mettre en avant de la musique  
 
-- Rien
+---
 
-Mathias:
+## Attentes globales
+- Meilleure modération  
+- Sécurité  
+- Disponibilité hors connexion (sans Internet)
 
-- Frustration serveur down
-
-Les attentes:
-
-- Meilleure modération
-- sécurité
-- disponible hors internet
