@@ -12,3 +12,6 @@ Choix du problème:
 
 Après réflexion notre choix est le suivant : 
  - Marre des créations de compte sur les réseaux sociaux - (Mail - Mot de passe crypter mais exposer sur un serveur, difficulté et risque pour les personne en précarité numérique)
+ Nous combinons ce choix avec deux autres problèmes:
+    -Publicité aggressive, intrusive
+    -Modérations
