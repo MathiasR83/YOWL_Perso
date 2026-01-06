@@ -9,33 +9,39 @@ Chaque sous-dossier correspond à une étape clé du processus et contient son p
 
 ## 📁 Structure & contenu
 
+~~~text
+docs/
 │
 ├── 01_research/
-│ Recherche utilisateur et marché, analyse du problème et insights clés.
+│   Recherche utilisateur et marché, analyse du problème et insights clés.
 │
 ├── 02_personas/
-│ Définition des profils utilisateurs cibles, besoins et frustrations.
+│   Définition des profils utilisateurs cibles, besoins et frustrations.
 │
 ├── 03_user_journey/
-│ Cartographie du parcours utilisateur et identification des points de friction.
+│   Cartographie du parcours utilisateur et identification des points de friction.
 │
 ├── 04_wireframes/
-│ Maquettes fonctionnelles low-fidelity et structure des écrans.
+│   Maquettes fonctionnelles low-fidelity et structure des écrans.
 │
 ├── 05_mockups/
-│ Maquettes visuelles high-fidelity et direction UI.
+│   Maquettes visuelles high-fidelity et direction UI.
 │
 ├── 06_prototype/
-│ Prototype interactif permettant de simuler l’expérience utilisateur.
+│   Prototype interactif simulant l’expérience utilisateur.
 │
 ├── 07_feedback/
-│ Tests utilisateurs et collecte des retours.
+│   Tests utilisateurs et collecte des retours.
 │
 ├── 08_prioritization/
-│ Priorisation des améliorations et décisions produit.
+│   Priorisation des améliorations et décisions produit.
 │
 ├── 09_pitch/
-│ Présentation finale du projet, de la problématique à la solution.
+│   Présentation finale du projet, de la problématique à la solution.
+│
+└── README.md
+~~~
+
 
 ---
 
