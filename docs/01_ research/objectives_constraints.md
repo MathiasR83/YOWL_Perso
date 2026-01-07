@@ -1,23 +1,36 @@
 ## measurable objectives
 
--Créer un compte sans email ni mot de passe.
--Utilisation de l'adresse mac ou quelque chose d'unique propre à un appareil.
--Rapiditée d'execution( dès le premier lencement)
--Interface simple et intuituive.
--Message, Médias, Ia
--Pas de pub
--Meilleure modération (Humain en dernier recours)
+-Création d'une section (endroit/page) destiné aux pubs.
+-Toujours avoir la section précédente remplie de pubs.
+-Donner un accès le plus minimaliste possible aux utilisateurs.
+-Donner un acces sans pubs garantie a chaque utilisateurs.
+-Avoir le plus de traffic possible sans oublier le reste de l'app.
+-Tutos lors du premier lancement.
+-Implémentations d'outils de statistiques.
+- ### Bonne géstion des récompenses.
 
 ## assumptions
 
--Probabilitée de crime organisé sur la plateforme( bien gérer la modérations, garder logs)
--Affluence abondante (nouveau Telegram, fermeture en seulement quelques jours)
--Utilisateur secptiques d'une application sans login
--Full bots
+-Bon traffic des pubs. Affluence conséquente
+-Croissance exponentielle
+-Possibilitées d'une cible d'utilisateurs très jeune prévoir de la modération.
+-Grosse comunication en B2B 
+
 
 ## risks
 
-- Il y a un risque pénale (Si on gere mal la modération et le RGPD...)
-- Complicité dans divers traffic
+-Surpublicité
+-Risque mentale (peut rendre débile)
+-Bots qui regarde des pubs ce qui fait chutter l'appli
+-Risque de marché secondaire sur l'appli
+-Risque de pubs non appropriés
+-Risque de poursuite judiciaire pour la non conformitée des pubs.
 
 ## constraints
+
+-Modérations des pubs
+-Developements de sécuritées antibots.
+-Modération sur la création de compte (les gens doivent avoir plus de 13 ans).
+-Pas de pubs de plus de trentes secondes
+
+
