@@ -1,1 +1,0 @@
-![MOSCOW MATRIX](/docs/08_prioritization/Assets/image.png)
