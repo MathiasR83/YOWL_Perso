@@ -1,1 +1,1 @@
-![maquette basse](image.png)
+![maquette basse](/home/oudart-gautier/Images/Captures d’écran/Capture d’écran du 2026-01-14 10-13-33.png)
