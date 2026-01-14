@@ -3,7 +3,7 @@
 Ce dépôt contient tout le projet : la phase de **design** et le **MVP**.  
 Le projet est organisé en deux dossiers principaux : `docs` et `mvp`.
 
----
+-----
 
 ## 📁 Structure du projet
 
