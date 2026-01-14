@@ -1,1 +1,0 @@
-![maquette basse](docs/04_ wireframes/Assests/Capture d’écran du 2026-01-14 10-13-33.png)
