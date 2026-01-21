@@ -1,9 +1,2 @@
-## Problématique
-
-Notre problème est le suivant :  
-
-L’abondance de publicités sur les réseaux sociaux.  
-
-Ces publicités sont souvent agaçantes et, lorsqu’elles ne sont pas désirées, elles peuvent pousser les utilisateurs à restreindre leur utilisation des applications, même lorsqu’elles sont ciblées.
-
-Notre application se présente comme une solution visant à pallier ces différents problèmes.
+Notre problème est le suivant :
+L'abondance des pubs, dans les réseaux sociaux. Les pubs sont agaçantes, et si non-voulues peuvent pousser les utilisateurs a restreindre leur utilisation de l'app bien que ciblées. La notre ( notre app ), sera une solution pour pallier ces différents problèmes.
