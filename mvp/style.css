@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Censored", sans-serif;
+}
+
+.container-tittle {
+    background-color: #00bba7;
+    color: white;
+    font-size: small;
+    padding: 15px;
+}
+
+.container-reels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 0px;
+    min-height: 100%;
+}
+.reel {
+    width: 100%;
+    min-width: 100%;
+    border: none;
+    min-height: 100%;
+}
