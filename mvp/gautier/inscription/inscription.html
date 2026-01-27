@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="connexion.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="inscription.css" />
+</head>
+<body>
+    <section class="logo-section">
+        <img id="logo" src="../connexion/Assets/Capture_decran_du_2026-01-13_09-58-04.png" alt="Logo de l'application" class="logo" />
+    </section>
+    <section class="welcome">
+        <span class="welcome-message">Bienvenue</span>
+        <p>Veuillez vous inscrire pour continuer</p>
+    </section>
+    <section class="form-section">
+        <h2>Inscription</h2>
+        <form action ="../connexion/connexion.html" class="form-example">
+            <div class="field">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required />
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="field">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" required />
+            </div>
+            <input class="form-submit" type="submit" value="S'inscrire" />
+        </form>
+        <section class="register-prompt">
+            <p>Déjà un compte ? <a href="../connexion/connexion.html">Connectez-vous</a></p>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2026 Social App. Sans publicité juste l'essentiel</p>
+    </footer>
+</body>
+</html>

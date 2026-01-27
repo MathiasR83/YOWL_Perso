@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="connexion.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="logo-section">
+        <img id="logo" src="../connexion/Assets/Capture_decran_du_2026-01-13_09-58-04.png" alt="Logo de l'application" class="logo" />
+    </section>
+
+    <section class="welcome">
+        <span class="welcome-message">Bienvenue</span>
+        <p>Veuillez vous connecter pour continuer</p>
+    </section>
+
+    <section class="form-section">
+        <h2>Connexion</h2>
+
+        <form class="form-example">
+            <div class="field">
+                <label for="Username">Username</label>
+                <input type="text" name="Username" id="Username" required />
+            </div>
+
+            <div class="field">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" required />
+            </div>
+            <input class="form-submit" type="submit" value="Se connecter" />
+        </form>
+        <section class="register-prompt">
+            <p>Pas encore de compte ? <a href="../inscription/inscription.html">Inscrivez-vous</a></p>
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Social App. Sans publicité juste l'essentiel</p>
+    </footer>
+</body>
+</html>
