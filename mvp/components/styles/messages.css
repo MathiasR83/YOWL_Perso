@@ -24,8 +24,16 @@
   }
   /*? Picture */
   img {
-    border-radius: 50px;
+    float: left;
+    padding: 10px;
+    align-content: center;
+    border-radius: 100px;
     width: 60px;
+  }
+  /* todo: Texte */
+  .div-persons p {
+    display: flex;
+    margin-left: 10px;
   }
 }
 /* ---------------------------------------------------------------- */
@@ -53,10 +61,24 @@
   /*? Tchat */
   .div-persons {
     border: solid 1px black;
+    margin-bottom: 2px;
   }
-
-  /* ---------------------------------------------------------------- */
+  /*? Picture */
+  img {
+    float: left;
+    padding: 10px;
+    align-content: center;
+    border-radius: 100px;
+    width: 60px;
+  }
+  /* todo: Texte */
+  .div-persons p {
+    display: flex;
+    margin-left: 10px;
+  }
 }
+
+/* ---------------------------------------------------------------- */
 
 /* TODO: PC */
 @media screen and (min-width: 810px) {
@@ -80,5 +102,19 @@
   /*? Tchat */
   .div-persons {
     border: solid 1px black;
+    margin-bottom: 2px;
+  }
+  /*? Picture */
+  img {
+    float: left;
+    padding: 10px;
+    align-content: center;
+    border-radius: 100px;
+    width: 60px;
+  }
+  /* todo: Texte */
+  .div-persons p {
+    display: flex;
+    margin-left: 10px;
   }
 }
