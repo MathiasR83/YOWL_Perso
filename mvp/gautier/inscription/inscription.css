@@ -75,3 +75,6 @@ footer {
     width: 5%;
     height: auto;
 }
+input {
+    border: 2px solid #00bba7;
+}

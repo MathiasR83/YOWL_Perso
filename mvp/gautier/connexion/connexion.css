@@ -75,3 +75,6 @@ footer {
     color: white;
     font-size: 15px;
 }
+input {
+    border: 2px solid #00bba7;
+}
