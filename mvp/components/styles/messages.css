@@ -15,18 +15,24 @@
     color: white;
     padding: 15px;
   }
+
+  /* ! Main */
   /*? Tchat */
   .div-persons {
     border: solid 1px black;
+    margin-bottom: 2px;
   }
-
-  /* ---------------------------------------------------------------- */
-  /* ! Main */
+  /*? Picture */
+  img {
+    border-radius: 50px;
+    width: 60px;
+  }
 }
+/* ---------------------------------------------------------------- */
 
 /* TODO: TABLETTE */
 
-@media screen and (min-width: 428px) AND (max-width: 810px) {
+@media screen and (min-width: 429px) AND (max-width: 810px) {
   /* ! TOUT */
   * {
     margin: 0;
@@ -42,17 +48,18 @@
     color: white;
     padding: 15px;
   }
+
+  /* ! Main */
   /*? Tchat */
   .div-persons {
     border: solid 1px black;
   }
 
   /* ---------------------------------------------------------------- */
-  /* ! Main */
 }
 
 /* TODO: PC */
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 810px) {
   /* ! TOUT */
   * {
     margin: 0;
@@ -69,6 +76,7 @@
     padding: 15px;
   }
 
+  /* ! Main */
   /*? Tchat */
   .div-persons {
     border: solid 1px black;
