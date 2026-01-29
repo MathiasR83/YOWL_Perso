@@ -6,6 +6,7 @@
     overflow: hidden;
   }
 
+  /* ! Header */
   header {
     display: block;
     text-align: center;
@@ -27,6 +28,7 @@
   }
 }
 
+/* ! Main */
 .btn-rewards {
   margin-top: 50px;
 }
@@ -40,6 +42,20 @@
   height: 100px;
 }
 
-.btn1 {
-  background-color:;
+/* ! Footer */
+
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.tabbar a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
 }
