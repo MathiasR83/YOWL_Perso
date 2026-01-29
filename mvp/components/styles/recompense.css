@@ -14,14 +14,32 @@
     padding: 15px;
   }
 
-  .carre {
-    display: flex;
-    border: green solid 10px;
-    width: 50px;
-    height: 50px;
-    background: green;
-  }
-  .carre a {
+  .head-main .rewards-title {
     display: block;
+    text-align: center;
+    margin-top: 30px;
   }
+
+  .head-main .rewards-p {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+.btn-rewards {
+  margin-top: 50px;
+}
+
+.btn-rewards .btn li {
+  float: left;
+
+  margin-left: 25px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.btn1 {
+  background-color:;
 }
