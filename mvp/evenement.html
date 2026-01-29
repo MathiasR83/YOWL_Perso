@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF_8">
+        <meta name = "viewport" conten = "width = device-width,initial = 1.0">
+        <title> NoN -Événements</title>
+        <link rel = "stylesheet" href = "style_evenement.css">
+    </head>
+
+    <body>
+
+        <div class = "app-container">
+            <header class = "header">
+                <h1>Rencontrez vos <span> IDOLES</span></h1>
+                <p>Participez à des événements exclusifs</p>
+
+                <div class = "tabs">
+                    <button class = "tab">Backgrounds</button>
+                    <button class = "tab active">Événements</button>
+                </div>
+            </header>
+
+            <section class = "card tickets-section">
+                <div class = "tickets-info">
+                    <div>
+                        <p class ="label">Mes billets</p>
+                        <span id ="ticketCount" class = "ticket-number">12</span>
+                    </div>
+
+                    <div class = "actions">
+                        <button class = "button-purpule" onclick="watchAd()">Regarder une pub</button>
+                        <button class = "button-teal">Acheter</button>
+                    </div>
+                </div>
+
+                <p class = "hint"> Gagnez 1 billet par pub (max 5/jour) ou achetez des packs</p>
+            </section>
+
+            <section class = "card event-card">
+                <div class = "event-header">
+                    <div class = "event-brand">
+                        <div class = "icon-box"> micro</div>
+                        <div>
+                            <h3>Live Session Privé</h3>
+                            <p class = "artist"> Emma Stone</p>
+                        </div>
+                    </div>
+                    <div class ="progress-container">
+                        <div class = "progress-labels">
+                            <span>67/100</span>
+                        </div>
+                        <div class = "progress-bar-bg">
+                            <div id = "progressBar" class ="progress-bar-fill"></div>
+                        </div>
+                    </div>
+                    <span class ="badge">Musique</span>
+
+            </section>
+        </div>
+
+        <script src="script_evenement.js"></script>
+
+    </body>
+</html>
