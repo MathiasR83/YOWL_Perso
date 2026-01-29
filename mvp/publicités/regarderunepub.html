@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billets</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="regarderunepub.css">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>Social App</h1>
+</header>
+
+<section class="box">
+  <a href="evenement.html"><img src="../publicités/Assets/7792318.png" alt="Retour" class="img"></a> Obtenir des billets<br>
+  Regardez des pubs ou achetez des packs
+</section>
+<section class="balance">
+  <span id="tickets">12</span>
+</section>
+
+<section class="premium">
+  👑 Passez Premium
+  <p>
+    Plus de billets chaque jour.<br>
+    À partir de 3,99€/mois
+  </p>
+</section>
+
+<section class="box">
+  <button id="watch" class="btn-main">Regarder une pub</button>
+  <p class="center">+1 billet</p>
+
+  <p>
+    Aujourd'hui <span id="seen">0</span>/5<br>
+    Reste <span id="left">5</span>
+  </p>
+</section>
+
+<section class="box">
+  💳 Acheter des billets<br><br>
+
+  <button class="btn-buy">5 billets – 0,99€</button>
+  <button class="btn-buy">15 billets – 12,49€</button>
+  <button class="btn-buy">40 billets – 25,99€</button>
+  <button class="btn-buy">100 billets – 32,99€</button>
+</section>
+
+<section class="box info">
+  ℹ️ Bon à savoir<br><br>
+  • 5 pubs max / jour<br>
+  • billets illimités si achetés<br>
+  • jamais expirés
+</section>
+
+<footer class="tabbar">
+  <a href="#">Home</a>
+  <a href="#">Reel</a>
+  <a href="#">Pubs</a>
+  <a href="#">Chat</a>
+  <a href="#">Profil</a>
+</footer>
+
+<script>
+let tickets = 12;
+let seen = 0;
+const max = 5;
+
+const ticketsEl = document.getElementById("tickets");
+const seenEl = document.getElementById("seen");
+const leftEl = document.getElementById("left");
+const btn = document.getElementById("watch");
+
+btn.onclick = () => {
+  if (seen >= max) return alert("Limite atteinte");
+
+  seen++;
+  tickets++;
+
+  ticketsEl.textContent = tickets;
+  seenEl.textContent = seen;
+  leftEl.textContent = max - seen;
+
+  if (seen === max) {
+    btn.textContent = "Limite atteinte";
+    btn.disabled = true;
+  }
+};
+</script>
+
+</body>
+</html>

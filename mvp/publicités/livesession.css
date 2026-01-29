@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 60px;
+  background: #57b8aa;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TOP */
+.green-container {
+  background: #4ac5b3;
+  text-align: center;
+  margin-top: 60px;
+  padding: 60px 20px 40px;
+  position: relative;
+}
+
+.retour {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  padding: 10px;
+  margin: auto;
+}
+
+/* CONTENT */
+.livesession {
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+  height: calc(100vh - 280px);
+  margin-bottom: 60px;
+}
+
+.livesession::-webkit-scrollbar { width: 6px; }
+.livesession::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+.livesession h2 { font-size: 18px; margin-bottom: 15px; }
+.livesession > h3 { display: flex; align-items: center; margin-bottom: 15px; }
+
+.imgg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* TEXT */
+.fi { font-size: 14px; color: #57b8aa; }
+.bg { color: #57b8aa; font-weight: 600; }
+.gg { color: #4caf50; }
+.gg span { color: #333; }
+
+/* SECTIONS (factorisé) */
+.first-section,
+.second-section,
+.three-section,
+.four-section,
+.five-section,
+.six-section,
+.seven-section,
+.eight-section {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  border: 1px solid #57b8aa;
+}
+
+.eight-section { margin-bottom: 80px; }
+
+.second-section p,
+.three-section p,
+.four-section p,
+.five-section p,
+.six-section p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-section p,
+.second-section p,
+.three-section p,
+.four-section p,
+.five-section p,
+.six-section p {
+  font-size: 14px;
+  color: #666;
+}
+
+span { color: #333; font-weight: 500; }
+
+/* SEVEN */
+.seven-section > p { margin-bottom: 15px; line-height: 1.5; }
+
+.seven-section div h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.seven-section div p {
+  font-size: 13px;
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+.seven-section div p::before {
+  content: "✓ ";
+  color: #4caf50;
+}
+
+/* TABBAR */
+.tabbar {
+  position: fixed;
+  inset: auto 0 0 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,.1);
+}
+
+.tabbar a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+
+.tabbar a:hover { color: #57b8aa; }
+
+/* explication code utuilisé un peu bizarrre 
+a:hover c'est pour changer la couleur du texte quand on passe la souris dessus
+.tabbar a c'est pour cibler les liens à l'intérieur de la barre d'onglets
+.seven-section div p c'est pour cibler les paragraphes à l'intérieur des divs dans la section sept
+.livesession::-webkit-scrollbar { width: 6px; } c'est pour styliser la largeur de la barre de défilement dans la section livesession
+.livesession::-webkit-scrollbar-thumb c'est pour styliser la barre de défilement dans la section livesession
+*/
