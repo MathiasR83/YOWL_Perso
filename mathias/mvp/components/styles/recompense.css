@@ -35,11 +35,48 @@
 
 .btn-rewards .btn li {
   float: left;
-
-  margin-left: 25px;
+  list-style: none;
+  margin-left: 33px;
   margin-bottom: 10px;
   width: 100px;
   height: 100px;
+}
+
+/*? Color Bouton  */
+/* 1 */
+.btn-rewards .btn .btn1 {
+  background-color: rgb(0, 137, 123);
+  border-radius: 20%;
+}
+
+/* 2 */
+.btn-rewards .btn .btn2 {
+  background-color: rgb(138, 235, 70);
+  border-radius: 20%;
+}
+
+/* 3 */
+.btn-rewards .btn .btn3 {
+  background-color: rgb(73, 30, 115);
+  border-radius: 20%;
+}
+
+/* 4 */
+.btn-rewards .btn .btn4 {
+  background-color: rgb(25, 25, 25);
+  border-radius: 20%;
+}
+
+/* 5 */
+.btn-rewards .btn .btn5 {
+  background-color: rgb(61, 58, 58);
+  border-radius: 20%;
+}
+
+/* 6 */
+.btn-rewards .btn .btn6 {
+  background-color: rgb(217, 147, 20);
+  border-radius: 20%;
 }
 
 /* ! Footer */
