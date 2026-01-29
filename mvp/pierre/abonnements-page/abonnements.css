@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Censored", sans-serif;
+}
+body {
+    background-color: #00bba7;
+}
+.container-tittle {
+    top: 0;
+    background-color: #00bba7;
+    color: white;
+    font-size: small;
+    padding: 15px;
+    width: 100%;
+}
+.container-abonnements {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.abonnement {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.container-abonnements .abonnement ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
