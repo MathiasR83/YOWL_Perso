@@ -1,5 +1,224 @@
-/* MOBILE FIST */
-@media screen and (max-width: 428px) {
+/* GLOBAL */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00d0ba;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* TODO: MOBILE FIST */
+@media screen and (max-width: 480px) {
+  /* BODY */
+
+  /* ! Header */
+  header {
+    display: block;
+    text-align: center;
+    background-color: rgb(0, 137, 123);
+    color: white;
+    padding: 15px;
+  }
+
+  .head-main .rewards-title {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .head-main .rewards-p {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  /* ! Main */
+  .btn-rewards {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     margin-top: 50px; */
+  }
+
+  .btn-rewards .btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .btn-rewards .btn li {
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    float: none;
+  }
+
+  /*? Color Bouton  */
+  /* 1 */
+  .btn-rewards .btn .btn1 {
+    background-color: rgb(0, 137, 123);
+    border-radius: 20%;
+  }
+
+  /* 2 */
+  .btn-rewards .btn .btn2 {
+    background-color: rgb(138, 235, 70);
+    border-radius: 20%;
+  }
+
+  /* 3 */
+  .btn-rewards .btn .btn3 {
+    background-color: rgb(73, 30, 115);
+    border-radius: 20%;
+  }
+
+  /* 4 */
+  .btn-rewards .btn .btn4 {
+    background-color: rgb(25, 25, 25);
+    border-radius: 20%;
+  }
+
+  /* 5 */
+  .btn-rewards .btn .btn5 {
+    background-color: rgb(61, 58, 58);
+    border-radius: 20%;
+  }
+
+  /* 6 */
+  .btn-rewards .btn .btn6 {
+    background-color: rgb(217, 147, 20);
+    border-radius: 20%;
+  }
+
+  /* ! Footer */
+
+  .tabbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .tabbar a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+  }
+}
+
+/* TODO: Tablet */
+@media screen and (min-width: 480px) AND (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* ! Header */
+  header {
+    display: block;
+    text-align: center;
+    background-color: rgb(0, 137, 123);
+    color: white;
+    padding: 15px;
+  }
+
+  .head-main .rewards-title {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .head-main .rewards-p {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* ! Main */
+.btn-rewards {
+  margin-top: 50px;
+}
+
+.btn-rewards .btn a {
+  display: flex;
+  float: left;
+  align-content: center;
+}
+.btn-rewards .btn li {
+  list-style: none;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+/*? Color Bouton  */
+/* 1 */
+.btn-rewards .btn .btn1 {
+  background-color: rgb(0, 137, 123);
+  border-radius: 20%;
+}
+
+/* 2 */
+.btn-rewards .btn .btn2 {
+  background-color: rgb(138, 235, 70);
+  border-radius: 20%;
+}
+
+/* 3 */
+.btn-rewards .btn .btn3 {
+  background-color: rgb(73, 30, 115);
+  border-radius: 20%;
+}
+
+/* 4 */
+.btn-rewards .btn .btn4 {
+  background-color: rgb(25, 25, 25);
+  border-radius: 20%;
+}
+
+/* 5 */
+.btn-rewards .btn .btn5 {
+  background-color: rgb(61, 58, 58);
+  border-radius: 20%;
+}
+
+/* 6 */
+.btn-rewards .btn .btn6 {
+  background-color: rgb(217, 147, 20);
+  border-radius: 20%;
+}
+
+/* ! Footer */
+
+.tabbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.tabbar a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
+
+/* TODO: Personal Computer */
+@media screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
