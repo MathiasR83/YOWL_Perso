@@ -41,6 +41,33 @@ body {
     font-weight: bold;
 }
 
+/* HERE THE SETCION FOR THE CHOOSE PAGE */
+.tabs{
+    display: flex;
+    background: rgba(0,0,0,0.1);
+    padding: 4px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.tab{
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.tab.active{
+    background: white;
+    color: #14b8a6;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
 
 main {
   max-width: 480px;
