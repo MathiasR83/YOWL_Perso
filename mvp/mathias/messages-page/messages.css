@@ -1,4 +1,38 @@
 /* TODO: MOBILE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Censored", sans-serif;
+}
+/* Here the tab-bar css */
+.container-tabar {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+}
+.list li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    transition: opacity 0.3s;
+}
+.list li a:hover {
+    opacity: 0.8;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 428px) {
   /* ! TOUT */
   * {

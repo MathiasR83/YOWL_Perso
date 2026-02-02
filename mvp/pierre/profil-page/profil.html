@@ -17,18 +17,18 @@
     </header>
     <main class="main-part">
         <div class="container-profil">
-            <div class="top-part" style="margin: 15px;">
+            <div class="top-part" style="display:flex; flex-direction:row;justify-content: space-between;gap:15px;padding: 15px;margin: 15px;">
                 <h2>Profil</h2>
-                <img src="#" alt="#">
+                <img src="/mvp/pierre/profil-page/photos/reglage.svg" alt="bouton reglages" style="width: 30px;height: 30px;">
             </div>
             <hr style="width:100%;text-align:left;margin-left:0;height:1px;border: none;color: grey;background-color: gray;">
         </div>
-        <div class="Profil" style="display: flex;flex-direction: row;margin: 15px;">
-            <img src="#" alt="photo de profil" class="photo-profil" style="width: 50px;height: 50px;">
+        <div class="Profil" style="display: flex;flex-direction: row;margin: 15px; gap: 15px;">
+            <img src="/mvp/pierre/profil-page/photos/avatar.png" alt="photo de profil" class="photo-profil" style="width: 120px;height: 120px;border-radius : 75px;">
             <div class="infos">
                 <h2>Nom d'utilisateur</h2>
                 <p>@votrepseudo</p>
-                <button style="width: 100%; padding: 10px;background-color: #f3f4f6; color: black;border-radius:  15px;border: none;font-size: large;font-weight: bold;margin-top: 20px;">Modifier le profil</button>
+                <button style="width: 100%; padding: 10px;background-color: #f3f4f6; color: black;border-radius:  15px;border: none;font-size: large;font-weight: bold;margin-top: 20px;font-size: 18px;">Modifier le profil</button>
             </div>
         </div>
         <p style="margin: 15px;">🌟 Passionné par la vie | Créateur de contenu | Amateur de café ☕</p>
@@ -48,44 +48,51 @@
             </div>
         </div>
         <hr style="width:100%;text-align:left;margin-left:0;height:1px;border: none;color: grey;background-color: gray;">
-        <button style="width: calc(100% - 30px);height: 100px; padding: 10px;background: linear-gradient(to right,#9D00FF,#FF00BC); color: white;border-radius:  15px;border: none;font-size: large;font-weight: bold;margin: 15px;">Voir les abonnements</button>
+        <a href="/mvp/pierre/abonnements-page/abonnements.html" style="display: flex;flex-direction: row;"><button style="width: calc(100% - 30px);height: 100px; padding: 15px;background: linear-gradient(to right,#9D00FF,#FF00BC); color: white;border-radius:  15px;border: none;font-size: large;font-weight: bold;margin: 15px;text-align: left;"><div style="display: flex;flex-direction: row;justify-content: space-between;"><p class="p-btn">👑 Passez Premium !<br>Débloquez des avantages exclusifs dès 3,99€/mois</p><img src="/mvp/pierre/profil-page/photos/courrone.png" style="width: 60px;height: 60px;margin-left: 15px;"></div></button></a>
         <h3 style="margin-left: 15px;">Activité récente</h3>
         <div class="recent-activity" style="display: flex;flex-direction: row;margin: 15px;gap: 20px;">
             <div style="flex-direction: column;width: 50%;background-color: #fef2f2;border-radius: 20px;padding: 15px;">
                 <div style="display: flex;flex-direction: row;gap: 15px;">
-                    <img src="#" alt="coeur-icone">
+                    <img src="/mvp/pierre/profil-page/photos/heart.png" style="width: 35px;height: 35px;" alt="coeur-icone">
                     <h2>324</h2>
                 </div>
                 <p>J'aime reçus</p>
             </div>
             <div style="flex-direction: column;width: 50%;background-color: #eff6ff;border-radius: 20px;padding: 15px;">
                 <div style="display: flex;flex-direction: row;gap: 15px;">
-                    <img src="#" alt="coeur-icone">
-                    <h2>324</h2>
+                    <img src="/mvp/pierre/profil-page/photos/text-bubble.png" style="width: 30px;height: 30px;" alt="abonnement-icone">
+                    <h2>678</h2>
                 </div>
-                <p>J'aime reçus</p>
+                <p>Commentaires</p>
             </div>
         </div>
         <h3 style="margin-left: 15px;">Publications</h3>
         <div class="grid-publications" style="display: grid;grid-template-columns: repeat(3, 1fr);gap: 8px;padding: 8px;margin: 15px;">
-            <div class="publication" style="grid-column: span 1;grid-row: span 2;background-color: #d1d5db;border-radius: 12px;min-height: 400px;"></div>
-            <div class="publication" style="grid-column: span 1;grid-row: span 2;background-color: #d1d5db;border-radius: 12px;min-height: 400px;"></div>
-            <div class="publication" style="grid-column: span 1;grid-row: span 2;background-color: #d1d5db;border-radius: 12px;min-height: 400px;"></div>
-            <div class="publication" style="grid-column: span 1;grid-row: span 2;background-color: #d1d5db;border-radius: 12px;min-height: 400px;"></div>
-            <div class="publication" style="grid-column: span 1;grid-row: span 2;background-color: #d1d5db;border-radius: 12px;min-height: 400px;"></div>
-            <div class="publication" style="grid-column: span 1;grid-row: span 2;background-color: #d1d5db;border-radius: 12px;min-height: 400px;"></div>
+            <div class="publication" style="grid-column: span 1;grid-row: span 2;border-radius: 12px;min-height: 400px;"><img src="../profil-page/photos/grid/1.jpeg" class="photo" alt="photo-profil"></div>
+            <div class="publication" style="grid-column: span 1;grid-row: span 2;border-radius: 12px;min-height: 400px;"><img src="../profil-page/photos/grid/2.jpeg" class="photo" alt="photo-profil"></div>
+            <div class="publication" style="grid-column: span 1;grid-row: span 2;border-radius: 12px;min-height: 400px;"><img src="../profil-page/photos/grid/3.jpeg" class="photo" alt="photo-profil"></div>
+            <div class="publication" style="grid-column: span 1;grid-row: span 2;border-radius: 12px;min-height: 400px;"><img src="../profil-page/photos/grid/4.jpeg" class="photo" alt="photo-profil"></div>
+            <div class="publication" style="grid-column: span 1;grid-row: span 2;border-radius: 12px;min-height: 400px;"><img src="../profil-page/photos/grid/5.jpeg" class="photo" alt="photo-profil"></div>
+            <div class="publication" style="grid-column: span 1;grid-row: span 2;border-radius: 12px;min-height: 400px;"><img src="../profil-page/photos/grid/6.jpeg" class="photo" alt="photo-profil"></div>
         </div>
     </main>
     <footer>
         <nav class="container-tabar">
-                <ul class="list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="/mvp/pierre/reel-page/reel.html">Reel</a></li>
-                    <li><a href="">Pubs</a></li>
-                    <li><a href="#">Chat</a></li>
-                    <li><a href="/mvp/pierre/profil-page/profil.html">Profil</a></li>
-                </ul>
-            </nav>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="/mvp/pierre/reel-page/reel.html">Reel</a></li>
+                <li><a href="/mvp/mathias/recompense-page/recompense.html">Pubs</a></li>
+                <li><a href="/mvp/mathias/messages-page/messages.html">Chat</a></li>
+                <li><a href="/mvp/pierre/profil-page/profil.html">Profil</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
+
+<!--
+    ▗▖ ▗▖ ▗▄▖ ▗▄▄▄▖▗▄▄▄▖▗▄▄▖
+    ▐▌▗▞▘▐▌ ▐▌▐▌     █ ▐▌   
+    ▐▛▚▖ ▐▛▀▜▌▐▛▀▀▘  █  ▝▀▚▖
+    ▐▌ ▐▌▐▌ ▐▌▐▙▄▄▖  █ ▗▄▄▞
+-->
