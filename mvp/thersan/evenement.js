@@ -1,24 +1,27 @@
-let tickets = 12;
-let tickets_progress = 67;
+document.addEventListener('DOMContentLoaded', () => {
+    // Initialisation des icônes Lucide
+    lucide.createIcons();
 
-
-function watchAdd(){
-    if(tickets<17){
-        tickets++;
-//la jauge est augmenter de 5% à chaque pub visionner
-        if(tickets_progress<100){
-            tickets_progress = Math.min(tickets_progress + 5, 100);
-        }
-
-        updateDisplay();
-    }else{
-        alert("Vous avez atteint la limite de publicités pour aujourd'hui!");
-    }
-}
-
-function updateDisplay(){
-    document.getElementById('progressBar');
-    bar.style.width = currentProgress + '%';
     
-    document.getElementById('progressText').innerText = currentProgress + '% complet ';
-}
+    const tabs = document.querySelectorAll('.tab');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+        });
+    });
+
+    
+    const pubBtn = document.querySelector('.btn-pub');
+    pubBtn.addEventListener('click', () => {
+        alert("Vidéo publicitaire lancée... +1 billet !");
+    });
+
+     const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', function() {
+            navItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+});

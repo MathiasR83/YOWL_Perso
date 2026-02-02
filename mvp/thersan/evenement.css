@@ -1,0 +1,177 @@
+
+:root {
+    --couleur-fond: #00bfa5;      
+    --couleur-carte: #ffffff;     
+    --texte-principal: #333333;  
+    --texte-secondaire: #777777;  
+    --accent-violet: #b539c4;    
+    --accent-rouge: #ff0000;     
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--couleur-fond);
+    color: white;
+    line-height: 1.5;
+}
+
+
+.app-container {
+    padding-bottom: 90px; 
+
+}
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.tabs {
+    display: flex;
+    background: rgba(0, 0, 0, 0.15); /* Fond transparent sombre */
+    border-radius: 12px;
+    padding: 4px;
+    margin-top: 15px;
+}
+
+.tab {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: white;
+    color: var(--couleur-fond);
+}
+
+.card {
+    background: var(--couleur-carte);
+    color: var(--texte-principal);
+    margin: 15px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Bloc Billets */
+.tickets-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticket-number {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--couleur-fond);
+}
+
+.label {
+    color: var(--texte-secondaire);
+    font-size: 0.9rem;
+}
+
+/* Boutons dans les cartes */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button-purple { background: var(--accent-violet); color: white; border: none; padding: 10px 18px; border-radius: 25px; font-weight: bold; }
+.button-teal { background: var(--couleur-fond); color: white; border: none; padding: 10px 18px; border-radius: 25px; font-weight: bold; }
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.event-brand {
+    display: flex;
+    gap: 12px;
+}
+
+.icon-box {
+    width: 48px;
+    height: 48px;
+    background: #00897b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.status-live {
+    color: var(--accent-rouge);
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.progress-bar-bg {
+    background: #eeeeee;
+    height: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: var(--couleur-fond);
+}
+
+
+.bouton-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 10px 0;
+    border-top: 1px solid var(--border-color);
+}   
+
+
+.nav-item {
+    text-decoration: none; 
+    color: #999999;      
+    display: flex;         
+    flex-direction: flex;
+    align-items: center;   
+    gap: 4px;              
+    font-size: 0.75rem;    
+}
+
+
+.nav-item.active {
+    color: #00bfa5;        
+}
+
+
+.nav-item i {
+    width: 24px;
+    height: 24px;
+}

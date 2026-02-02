@@ -1,64 +1,103 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF_8">
-        <meta name = "viewport" conten = "width = device-width,initial = 1.0">
-        <title> NoN -Événements</title>
-        <link rel = "stylesheet" href = "style_evenement.css">
-    </head>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>NoN - Événements</title>
+             <link rel="stylesheet" href="style_evenement.css">
+             <script src="https://unpkg.com/lucide@latest"></script>
+        </head>
+        <body>
 
-    <body>
+            <div class="app-container">
+              <header class="header">
+                <h2 class="app-title">Social App</h2>
+               <div class="hero-text">
+                  <h1>Rencontrez vos <span>IDOLES</span></h1>
+                  <p>Participez à des événements exclusifs</p>
+               </div>
 
-        <div class = "app-container">
-            <header class = "header">
-                <h1>Rencontrez vos <span> IDOLES</span></h1>
-                <p>Participez à des événements exclusifs</p>
+               <div class="tabs">
+                 <button class="tab">🎨 Backgrounds</button>
+                 <button class="tab active">⌛ Événements</button>
+               </div>
+             </header>
 
-                <div class = "tabs">
-                    <button class = "tab">Backgrounds</button>
-                    <button class = "tab active">Événements</button>
+             <section class="card tickets-section">
+             <div class="tickets-info">
+                <div>
+                    <p class="label">Mes billets</p>
+                    <span id="ticketCount" class="ticket-number">12</span>
                 </div>
-            </header>
-
-            <section class = "card tickets-section">
-                <div class = "tickets-info">
-                    <div>
-                        <p class ="label">Mes billets</p>
-                        <span id ="ticketCount" class = "ticket-number">12</span>
-                    </div>
-
-                    <div class = "actions">
-                        <button class = "button-purpule" onclick="watchAd()">Regarder une pub</button>
-                        <button class = "button-teal">Acheter</button>
-                    </div>
+                <div class="actions">
+                    <button class="button-purple" onclick="watchAd()">Regarder une pub</button>
+                    <button class="button-teal">Acheter</button>
                 </div>
+             </div>
+             <p class="hint">💡 Gagnez 1 billet par pub (max 5/jour) ou achetez des packs</p>
+             </section>
 
-                <p class = "hint"> Gagnez 1 billet par pub (max 5/jour) ou achetez des packs</p>
-            </section>
-
-            <section class = "card event-card">
-                <div class = "event-header">
-                    <div class = "event-brand">
-                        <div class = "icon-box"> imogi micro</div>
-                        <div>
+             <div class="event-list">
+             <section class="card event-card">
+                <div class="event-header">
+                    <div class="event-brand">
+                        <div class="icon-box">🎤</div>
+                        <div class="title-meta">
                             <h3>Live Session Privé</h3>
-                            <p class = "artist"> Emma Stone</p>
+                            <p class="artist">⭐ Emma Stone</p>
                         </div>
                     </div>
-                    <div class ="progress-container">
-                        <div class = "progress-labels">
-                            <span>67/100</span>
-                        </div>
-                        <div class = "progress-bar-bg">
-                            <div id = "progressBar" class ="progress-bar-fill"></div>
-                        </div>
+                    <div class="event-stats">
+                        <span class="cost">⌛ 3</span>
+                        <span class="status-live"><span class="dot"></span> Live</span>
                     </div>
-                    <span class ="badge">Musique</span>
+                </div>
 
-            </section>
-        </div>
+                <div class="event-info-row">
+                    <span>📅 15 Jan 2026</span>
+                    <span>🕒 20:00</span>
+                    <span>👥 67/100</span>
+                </div>
 
-        <script src="script_evenement.js"></script>
+                <p class="description">Session live exclusive avec Emma pour discuter de son nouvel album</p>
 
-    </body>
-</html>
+                <div class="progress-section">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 67%;"></div>
+                    </div>
+                    <div class="progress-footer">
+                        <span class="progress-text">67% complet</span>
+                        <span class="badge">Musique</span>
+                    </div>
+                </div>
+             </section>
+             </div>
+
+         
+             <nav class="bouton-nav">
+              <a href="homePage.html" class="nav-item active">
+                <i data-lucide="home"></i>
+                <span>Home</span>
+              </a>
+              <a href="reel.html" class="nav-item">
+                <i data-lucide="video"></i>
+                 <span>Reel</span>
+              </a>
+              <a href="evenement.html" class="nav-item ">
+                <i data-lucide="plus-square"></i>
+                <span>Pubs</span>
+              </a>
+              <a href="chat.html" class="nav-item">
+                 <i data-lucide="message-square"></i>
+                 <span>Chat</span>
+              </a>
+              <a href="profil.html" class="nav-item">
+                <i data-lucide="user"></i>
+                <span>Profil</span>
+             </a>
+             </nav>
+          </div>
+
+         <script src="evenement.js"></script>
+        </body>
+    </html>
