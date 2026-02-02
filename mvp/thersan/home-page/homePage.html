@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social App - MVP</title>
+    <link rel="stylesheet" href="homePage.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Social App</h1>
+        </header>
+
+        <section class="stories-container">
+            <div class="story">
+                <div class="story-avatar add-story">+</div>
+                <span>Votre story</span>
+            </div>
+            <div class="story">
+                <div class="story-avatar active"><img src="https://i.pravatar.cc/150?u=marie" alt="Marie"></div>
+                <span>marie_dubois</span>
+            </div>
+            <div class="story">
+                <div class="story-avatar active"><img src="https://i.pravatar.cc/150?u=lucas" alt="Lucas"></div>
+                <span>louisa</span>
+            </div>
+            <div class="story">
+                <div class="story-avatar active"><img src="https://i.pravatar.cc/150?u=sophie" alt="Sophie"></div>
+                <span>max_travel</span>
+            </div>
+            <div class="story">
+                <div class="story-avatar active"><img src="https://i.pravatar.cc/150?u=alex" alt="Alex"></div>
+                <span>alex</span>
+            </div>
+        </section>
+
+        <main class="feed">
+            
+            <article class="post">
+                <div class="post-header">
+                    <div class="user-info">
+                        <img src="https://i.pravatar.cc/150?u=marie" class="user-avatar" alt="Marie">
+                        <div>
+                            <span class="username">marie_dubois</span>
+                            <span class="post-time">2h</span>
+                        </div>
+                    </div>
+                    <i data-lucide="more-horizontal"></i>
+                </div>
+                <div class="post-content">
+                    <p class="post-caption">Superbe journée pour profiter de la vie ! 🌟</p>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Sunset" class="post-image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-actions">
+                        <i data-lucide="heart" class="action-icon btn-like"></i>
+                        <i data-lucide="message-circle" class="action-icon"></i>
+                        <i data-lucide="share-2" class="action-icon"></i>
+                    </div>
+                    <i data-lucide="bookmark" class="action-icon"></i>
+                </div>
+                <div class="post-stats">
+                    <strong>324 J'aime</strong>
+                    <p class="view-comments">Voir les 45 commentaires</p>
+                </div>
+            </article>
+
+            <article class="post">
+                <div class="post-header">
+                    <div class="user-info">
+                        <img src="https://i.pravatar.cc/150?u=lucas" class="user-avatar" alt="Lucas">
+                        <div>
+                            <span class="username">louisa</span>
+                            <span class="post-time">5h</span>
+                        </div>
+                    </div>
+                    <i data-lucide="more-horizontal"></i>
+                </div>
+                <div class="post-content">
+                    <p class="post-caption">Nouveau setup de bureau terminé ! 💻🔥</p>
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Setup" class="post-image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-actions">
+                        <i data-lucide="heart" class="action-icon btn-like"></i>
+                        <i data-lucide="message-circle" class="action-icon"></i>
+                        <i data-lucide="share-2" class="action-icon"></i>
+                    </div>
+                    <i data-lucide="bookmark" class="action-icon"></i>
+                </div>
+                <div class="post-stats">
+                    <strong>128 J'aime</strong>
+                    <p class="view-comments">Voir les 12 commentaires</p>
+                </div>
+            </article>
+
+            <article class="post">
+                <div class="post-header">
+                    <div class="user-info">
+                        <img src="https://i.pravatar.cc/150?u=sophie" class="user-avatar" alt="Sophie">
+                        <div>
+                            <span class="username">max_travel</span>
+                            <span class="post-time">1j</span>
+                        </div>
+                    </div>
+                    <i data-lucide="more-horizontal"></i>
+                </div>
+                <div class="post-content">
+                    <p class="post-caption">Le calme du matin en montagne... 🏔️</p>
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" alt="Montagne" class="post-image">
+                </div>
+                <div class="post-actions">
+                    <div class="left-actions">
+                        <i data-lucide="heart" class="action-icon btn-like"></i>
+                        <i data-lucide="message-circle" class="action-icon"></i>
+                        <i data-lucide="share-2" class="action-icon"></i>
+                    </div>
+                    <i data-lucide="bookmark" class="action-icon"></i>
+                </div>
+                <div class="post-stats">
+                    <strong>856 J'aime</strong>
+                    <p class="view-comments">Voir les 103 commentaires</p>
+                </div>
+            </article>
+
+        </main>
+
+        <nav class="bottom-nav">
+            <a href="homePage.html" class="nav-item active">
+                <i data-lucide="home"></i>
+                <span>Home</span>
+            </a>
+            <div class="nav-item "><i data-lucide="home"></i><span>Home</span></div>
+            <div class="nav-item"><i data-lucide="video"></i><span>Reel</span></div>
+            <a href="evenement.html" class="nav-item active">
+                <i data-lucide="plus"></i>
+                <span>Pubs</span>
+            </a>
+            <div class="nav-item"><i data-lucide="message-square"></i><span>Chat</span></div>
+            <div class="nav-item"><i data-lucide="user"></i><span>Profil</span></div>
+        </nav>
+    </div>
+
+    <script src="homePage.js"></script>
+</body>
+</html>
