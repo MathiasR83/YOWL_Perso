@@ -96,7 +96,7 @@ body {
   border: 1px solid #57b8aa;
 }
 
-.eight-section { margin-bottom: 80px; }
+.eight-section { margin-bottom: 100px; }
 
 .second-section p,
 .three-section p,
@@ -164,3 +164,34 @@ a:hover c'est pour changer la couleur du texte quand on passe la souris dessus
 .livesession::-webkit-scrollbar { width: 6px; } c'est pour styliser la largeur de la barre de défilement dans la section livesession
 .livesession::-webkit-scrollbar-thumb c'est pour styliser la barre de défilement dans la section livesession
 */
+
+.container-tabar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.list li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    transition: opacity 0.3s;
+}
+
+.list li a:hover {
+    opacity: 0.8;
+    font-weight: bold;
+}

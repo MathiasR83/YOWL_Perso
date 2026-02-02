@@ -44,6 +44,7 @@ body {
 /* HERE THE SETCION FOR THE CHOOSE PAGE */
 .tabs{
     display: flex;
+    justify-content: center;
     background: rgba(0,0,0,0.1);
     padding: 4px;
     border-radius: 12px;
