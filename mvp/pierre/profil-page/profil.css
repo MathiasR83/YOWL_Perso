@@ -8,6 +8,12 @@
 body {
     overflow-x: hidden;
 }
+
+p {
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+}
+
 .main-part {
     padding-bottom: 80px; /* Espace pour le footer fixe */
 }
@@ -50,3 +56,20 @@ body {
     opacity: 0.8;
     font-weight: bold;
 }
+.p-btn {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/*
+    ▗▖ ▗▖ ▗▄▖ ▗▄▄▄▖▗▄▄▄▖▗▄▄▖
+    ▐▌▗▞▘▐▌ ▐▌▐▌     █ ▐▌   
+    ▐▛▚▖ ▐▛▀▜▌▐▛▀▀▘  █  ▝▀▚▖
+    ▐▌ ▐▌▐▌ ▐▌▐▙▄▄▖  █ ▗▄▄▞▘
+*/
