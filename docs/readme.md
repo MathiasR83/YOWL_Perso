@@ -1,50 +1,82 @@
-# Phase 1 – Product Design
+# Docs – Dossier de conception UX/UI
 
-Ce dossier regroupe l’ensemble des étapes de la **Phase 1 – Product Design**.  
-Il présente le processus complet de conception d’un produit, de la recherche initiale jusqu’au pitch final.
+Ce dossier regroupe toute la **documentation de conception du projet**, depuis la recherche utilisateur jusqu’au pitch final.
 
-Chaque sous-dossier correspond à une étape clé du processus et contient son propre `README.md` décrivant son contenu et ses livrables.
-
----
-
-## 📁 Structure & contenu
-
-~~~text
-docs/
-│
-├── 01_research/
-│   Recherche utilisateur et marché, analyse du problème et insights clés.
-│
-├── 02_personas/
-│   Définition des profils utilisateurs cibles, besoins et frustrations.
-│
-├── 03_user_journey/
-│   Cartographie du parcours utilisateur et identification des points de friction.
-│
-├── 04_wireframes/
-│   Maquettes fonctionnelles low-fidelity et structure des écrans.
-│
-├── 05_mockups/
-│   Maquettes visuelles high-fidelity et direction UI.
-│
-├── 06_prototype/
-│   Prototype interactif simulant l’expérience utilisateur.
-│
-├── 07_feedback/
-│   Tests utilisateurs et collecte des retours.
-│
-├── 08_prioritization/
-│   Priorisation des améliorations et décisions produit.
-│
-├── 09_pitch/
-│   Présentation finale du projet, de la problématique à la solution.
-│
-└── README.md
-~~~
-
+Il permet de comprendre la démarche, les choix UX/UI et l’évolution du projet avant la réalisation du MVP.
 
 ---
 
-## 🎯 Objectif
+## Contenu du dossier
 
-Cette phase vise à poser des bases solides pour le produit en adoptant une démarche **centrée utilisateur, structurée et itérative**.
+Le dossier est organisé par étapes de conception :
+
+### 01_research  
+Recherche initiale du projet :
+- benchmark
+- interviews
+- problématique
+- objectifs et contraintes
+- questions liées aux données
+
+### 02_personas  
+Définition des utilisateurs cibles :
+- personas
+- assets associés
+
+### 03_user_journey  
+Parcours utilisateur :
+- mapping des actions et émotions de l’utilisateur
+
+### 04_wireframes  
+Premières maquettes fonctionnelles basse fidélité.
+
+### 05_mockups  
+Designs haute fidélité :
+- mockups
+- évolution sur Figma
+
+### 06_prototype  
+Prototype interactif :
+- description des interactions
+- vidéo du prototype
+
+### 07_feedback  
+Tests utilisateurs :
+- protocole de test
+- synthèse des retours
+
+### 08_prioritization  
+Priorisation des fonctionnalités :
+- matrice de priorisation
+- définition du MVP
+
+### 09_pitch  
+Supports de présentation du projet.
+
+---
+
+## Objectifs des documents
+
+- Justifier les choix UX/UI.
+- Montrer l’évolution du projet.
+- Centraliser la recherche et la conception.
+- Servir de base pour le développement du MVP.
+
+---
+
+## Utilisation
+
+Ce dossier est destiné à :
+- la consultation du processus de design,
+- la présentation du projet,
+- le suivi de l’évolution des idées et des fonctionnalités.
+
+Chaque sous-dossier contient des fichiers `.md`, images ou PDF explicatifs.
+
+---
+
+## Remarque
+
+La documentation est complémentaire au dossier `mvp`, qui contient la version interactive du projet.
+
+Les deux ensembles permettent de comprendre à la fois la réflexion et la réalisation.
